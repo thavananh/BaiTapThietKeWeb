@@ -1,7 +1,12 @@
-.headerPage_logo_img{
+.headerPage .logo_img{
    float:left;
    width: 400px; 
    height: 100px;
    margin-left: 100px;
    margin-top: 10px;
+}
+.headerPage span {
+   float:right;
+   margin-top: 25px;
+   margin-right: 25px;
 }

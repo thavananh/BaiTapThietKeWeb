@@ -81,10 +81,8 @@
    width: 170px;
    display: block;
    color: rgb(83, 83, 83);
-   box-sizing: border-box;
    font-size: 20px;
-   padding-bottom: 20px;
-   padding-top: 20px;
+   margin-bottom: 30px;
    font-weight: bold;
    text-transform: uppercase;
 }
@@ -123,7 +121,6 @@
    flex-direction: row;
    justify-content: center;
    text-decoration: none;
-   transition: 4s;
 }
 
 .slider_images {

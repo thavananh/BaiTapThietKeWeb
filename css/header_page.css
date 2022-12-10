@@ -223,12 +223,19 @@
    background-color: red;
 }
 .Noi_Dung_Lich_Su_kien {
-   display: flex;
-   margin-top: 65px;
-   width: 70vh;
+   margin-top: 64px;
+   width: 75vh;
+   background-color: bisque;
+   border-radius: 10px;
 }
 
 .Noi_Dung_Lich_Su_kien h1{
    color: red;
    margin-left: 260px;
+}
+.Noi_Dung_Lich_Su_kien div {
+   font-size: x-large;
+   margin-top: 10px;
+   margin-left: 10px;
+   margin-bottom: 5px;
 }

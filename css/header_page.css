@@ -228,7 +228,6 @@
    background-color: bisque;
    border-radius: 10px;
 }
-
 .Noi_Dung_Lich_Su_kien h1{
    color: red;
    margin-left: 260px;
@@ -238,4 +237,7 @@
    margin-top: 10px;
    margin-left: 10px;
    margin-bottom: 5px;
+}
+.news_slider {
+   
 }

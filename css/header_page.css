@@ -118,7 +118,7 @@
 
 .menu_ngang ul li:hover  ul{
    border-bottom: 1px solid #FFF;
-   display: block;
+   display: flex;
    flex-direction: row;
    justify-content: center;
    text-decoration: none;

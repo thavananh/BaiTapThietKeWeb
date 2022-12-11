@@ -7,10 +7,71 @@
     height: 20px;
 }
 
-.menu_ngang_duoi .nav-link {
-    transition: all 0.2s;
+.header_menu {
+    text-align: center;
 }
 
-.menu_ngang_duoi .nav-link:hover, .menu_ngang_duoi .nav-link:focus, .menu_ngang_duoi .nav-link:active {
+.menu_ngang ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    padding: 0;
+    list-style-type: none;
+ }
+ .menu_ngang ul li {
+    display: inline-block;
+ }
+ 
+ .menu_ngang ul li a {
+    text-decoration: none;
+    width: 170px;
+    display: block;
+    color: rgb(83, 83, 83);
+    font-size: 20px;
+    margin-bottom: 30px; /*key*/
+    font-weight: bold;
+    text-transform: uppercase;
+ }
+ 
+ 
+ 
+ .menu_ngang ul li a:hover, .menu_ngang ul li a:focus, .menu_ngang ul li a.active {
     text-decoration: underline;
-}
+    font-size: 20px;
+ }
+ .menu_ngang ul li ul {
+    background: rgb(0,71,171) ;
+    left: 0;
+    right: 0;
+    margin: 0;
+    margin-top: 0px;
+    padding: 13px;
+    position: absolute;
+    display: none;
+ }
+ 
+ .menu_ngang ul li ul li a
+ {
+    box-sizing: border-box;
+     color: white;
+     border-right: none;
+     line-height: 30px;
+     width: 100%;
+     margin: 0px 30px; /*key*/
+     padding: 10px;
+ }
+ 
+ .menu_ngang ul li:hover  ul{
+    border-bottom: 1px solid #FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+ }
+
+ @media screen and (max-width:1200px) {
+    .menu_ngang {
+        display: none;
+    }
+ }

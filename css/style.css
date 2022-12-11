@@ -1,8 +1,16 @@
 .logo_img {
-    margin-left: 100px;
-    width: 500px;
+    width: 550px; 
+    height: 120px;
 }
 .switch_lang_img {
     width: 28px;
     height: 20px;
+}
+
+.menu_ngang_duoi .nav-link {
+    transition: all 0.2s;
+}
+
+.menu_ngang_duoi .nav-link:hover, .menu_ngang_duoi .nav-link:focus, .menu_ngang_duoi .nav-link:active {
+    text-decoration: underline;
 }

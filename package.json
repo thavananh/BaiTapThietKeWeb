@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/thavananh/BaiTapThietKeWeb#readme",
   "dependencies": {
-    "bootstrap": "^5.2.3"
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.1",
+    "zepto": "^1.2.0"
   }
 }

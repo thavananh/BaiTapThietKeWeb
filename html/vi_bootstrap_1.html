@@ -43,8 +43,7 @@
         </div>
     </nav>
     </div>
-    
-
+<!--------------------------------------------------------------------------------------------------------------------------------------------------->    
     <nav class="navbar navbar-expand-xl">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu_bellowHead">
@@ -179,7 +178,7 @@
         </div>
     </nav>
     <br>
-
+<!--------------------------------------------------------------------------------------------------------------------------------------------------->   
     <div class="bang_su_kien_wideScreen">
         <div class="container-fluid my-5">
             <div class="row">
@@ -238,7 +237,7 @@
             </div>
         </div>
     </div>
-
+<!--------------------------------------------------------------------------------------------------------------------------------------------------->   
     <div class="bang_su_kien_narrowScreen">
         <div class="container-fluid my-5">
             <h1 class="text-center fw-bold display-6"><span class="text-danger">Bảng sự kiện</span></h1>
@@ -286,13 +285,13 @@
             </div>
         </div>
     </div>
-
+<!--------------------------------------------------------------------------------------------------------------------------------------------------->   
     <div class="news_slider">
         <div class="container-fluid my-5">
-            <h1 class="fw-bold display-6 mb-4">Tin tức</h1>
+            <h1 class="fw-bold display-6" style="margin-left: 100px;">Tin tức mới nhất</h1>
                 <div class="row">
                     <div class="col-12 m-auto">
-                        <div class="owl-carousel owl-theme">
+                        <div class="test-123 owl-carousel owl-theme">
                             <div class="item mb-4">
                                 <div class="card border-0 shadow">
                                     <img src="/resources/images/1.jpg" alt="" class="card-img-top">
@@ -368,25 +367,85 @@
                     </div>
                  </div>
             </div>
-        </div>
+        
+    </div>
+
+    <div class="timeLine">
+        <section>
+            <div class="container-fluid py-5">
+              <div class="main-timeline-2">
+                <div class="timeline-2 left-2">
+                  <div class="card">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(135).webp" class="card-img-top"
+                      alt="Responsive image">
+                    <div class="card-body p-4">
+                      <h4 class="fw-bold mb-4">CỬ NHÂN</h4>
+                      <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> 2017</p>
+                      <p class="mb-0">type something</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="timeline-2 right-2">
+                  <div class="card">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(129).webp" class="card-img-top"
+                      alt="Responsive image">
+                    <div class="card-body p-4">
+                      <h4 class="fw-bold mb-4">THẠC SĨ</h4>
+                      <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> 2016</p>
+                      <p class="mb-0">type something</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="timeline-2 left-2">
+                  <div class="card">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(131).webp" class="card-img-top"
+                      alt="Responsive image">
+                    <div class="card-body p-4">
+                      <h4 class="fw-bold mb-4">TIẾN SĨ</h4>
+                      <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> 2015</p>
+                      <p class="mb-0">type something</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </section>
     </div>
     
-
-<script src="/node_modules/jquery/dist/jquery.min.js"></script> <!--jquery.min.js-->
-
-<!-- Option 1: Bootstrap Bundle with Popper -->
-<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script> <!--bootstrap.bundle.min.js-->
-<script src="/node_modules/bootstrap/dist/owl.carousel.min.js"></script> <!--owl.carousel.min.js-->
+    
+<script src="/node_modules/jquery/dist/jquery.min.js"></script>
+<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script> 
+<script src="/node_modules/bootstrap/dist/owl.carousel.min.js"></script> 
+<script>
+    $('.test-123').owlCarousel({
+    loop: true,
+    margin: 15,
+    dots:false,
+    nav: true,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 3
+        },
+        1300: {
+            items: 5
+        }
+    },
+    autoplay:true,
+    autoplayTimeout:5000,
+})
+</script>
 <script>
     $('.owl-carousel').owlCarousel({
         loop: true,
         margin: 15,
-        nav: true,
+        nav: false,
         responsive: {
             0: {
                 items: 1
             },
-            600: {
+            800: {
                 items: 2
             },
             1000: {
@@ -397,10 +456,5 @@
         autoplayTimeout:5000,
     })
 </script>
-
-
-
-
-
 </body>
 </html>

@@ -7,4 +7,4 @@
         counter = 1;
       }
     }, 5000);
-    </script>
+  </script>
